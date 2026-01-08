@@ -1,0 +1,93 @@
+
+#form
+{
+    width: 750px;
+    height: 800px;
+    border :solid black;
+    margin-left: 20%;
+    border-radius: 10px;
+    background-color: cornsilk;
+}
+#details
+{
+   width: 550px;
+   height:600px;
+   margin-left: 20%;
+   padding-top: 30px;
+}
+#submit
+{
+    
+    background-color:aqua;
+    color:black;
+    margin-left: 50px;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+}
+@keyframes myAnimation {
+  from {background-color: rgb(51, 176, 222);}
+  to {background-color:blueviolet;}
+}
+
+#submit:hover
+{
+    animation: myAnimation 1s infinite alternate;
+}
+#emailcheck
+{
+    margin-left: 80px;
+    font-size: small;
+}
+
+#clear:hover
+{
+    animation: myAnimation 1s infinite alternate;
+}
+
+#clear
+{
+    
+    background-color:aqua;
+    color:black;
+    margin-left: 50px;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+}
+#form
+{
+    width: 750px;
+    height: 800px;
+    border :solid black;
+    margin-left: 20%;
+    border-radius: 10px;
+    background-color: cornsilk;
+}
+#details
+{
+   width: 550px;
+   height:600px;
+   margin-left: 20%;
+   padding-top: 30px;
+}
+#butt
+{
+    
+    background-color:aqua;
+    color:black;
+    margin-left: 50px;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+}
+@keyframes myAnimation {
+  from {background-color: rgb(51, 176, 222);}
+  to {background-color:blueviolet;}
+}
+
+#butt:hover
+{
+    animation: myAnimation 1s infinite alternate;
+
+}

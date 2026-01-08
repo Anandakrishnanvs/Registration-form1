@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form">
+      <header>
+        <h1 style="color: blue; text-align: center; ">Registration Form</h1>
+      </header>
+      <div id="details">
+        <form>
+          <b>First Name:</b> <input type="text" name="name" id="name" placeholder="Enter the first name" required>
+          <p id="namecheck"></p>
+          <b>Last Name:</b> <input type="text" name="name" placeholder="(optional)" ><br><br>
+          <b>Reg no:</b> <input type="text" id="regno" name="regno"  required><br><br>
+          <b>Branch::</b><select id="branch" name="course">
+             <option value="">--Select--</option>
+             <option value="CSE">CSE</option>
+             <option value="MECH">MECH</option>
+             <option value="CIVIL">CIVIL</option>
+             <option value="EEE">EEE</option>
+          </select><br><br>
+          <b>Mobile no:</b> <input type="tel" id="mob"name="tel" pattern=[1-9]{1}[0-9]{9} required><br><br>
+          <b>Email id:</b> <input type="email" id="email" name="email"  required><br>
+          <p id="emailcheck"></p><br>
+          <b>Religion:</b><select id="Religion" name="religion">
+            <option value="">--Select--</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Muslim">Muslim</option>
+            <option value="Christian">Christian</option>
+          </select><br><br>
+          <b>Gender:</b> <input type="radio" id="Gender" name="Gender" value="Male">Male
+          <input type="radio" name="Gender" id="Gender" value="Female">Female<br><br>
+          <b>Skills:</b> <input type="checkbox" id="skills" name="Skills" value="C programming">C programming
+          <input type="checkbox" name="Skills" id="skills" value="CSS">CSS
+          <input type="checkbox" name="Skills" id="skills" value="HTML">HTML
+          <input type="checkbox" name="Skills"  id="skills" value="Javascript">Javascript<br><br>
+          <b>Course:</b><select id="course" name="course">
+             <option value="">--Select--</option>
+             <option value="Python">PYTHON</option>
+             <option value="Dsa">DSA</option>
+             <option value="Oops">OOPS</option>
+             <option value="Lsd">LSD</option>
+          </select><br><br>
+         
+          <b>Photo:</b><input type="file" id="pic" name="file" ><br><br>
+          <b>Sidnature:</b><input type="file" id="sign" name="file" ><br><br><br>
+          <button onclick="sucess.html" id="submit" type="submit">Submit</button>
+          <button onclick="clearall()"  id="clear" type="clear">Clear</button>
+        </form>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
